@@ -1,6 +1,6 @@
 {
    "name": "@bemoje/arr-bubble-sort",
-   "version": "1.0.1",
+   "version": "1.1.0",
    "description": "Sort array by bubbling up bigger values to the right side. Runtime: O(n^2)",
    "main": "dist/arr-bubble-sort.umd.js",
    "module": "dist/arr-bubble-sort.esm.js",
@@ -45,7 +45,9 @@
    },
    "license": "MIT",
    "dependencies": {
-      "@bemoje/arr-swap": "^1.0.1"
+      "@bemoje/arr-swap": "^1.0.1",
+      "@bemoje/assert-args": "^1.0.0",
+      "@bemoje/assert-type": "^1.0.0"
    },
    "devDependencies": {
       "babel-core": "^6.26.3",

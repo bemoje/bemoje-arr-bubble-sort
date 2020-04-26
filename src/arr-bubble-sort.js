@@ -1,4 +1,6 @@
 import arrSwap from '@bemoje/arr-swap'
+import assertArgs from '@bemoje/assert-args'
+import assertType from '@bemoje/assert-type'
 
 /**
  * Sort array by bubbling up bigger values to the right side. Runtime: O(n^2)
@@ -6,6 +8,9 @@ import arrSwap from '@bemoje/arr-swap'
  * @returns {Array}
  */
 export default function arrBubbleSort(arr) {
+	assertArgs(arr)
+	assertType(Array, arr)
+
 	for (let i = 1; i < arr.length; i++) {
 		let swapped = false
 
