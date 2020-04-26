@@ -37,8 +37,11 @@ npm install --save-dev @bemoje/arr-bubble-sort
 ```javascript
 import arrBubbleSort from '@bemoje/arr-bubble-sort'
 
-arrBubbleSort()
-//=> undefined
+arrBubbleSort([2, 1, 3])
+//=> [1, 2, 3]
+
+arrBubbleSort(['b', 'a', 'c'])
+//=> ['a', 'b', 'c']
 
 ```
 
